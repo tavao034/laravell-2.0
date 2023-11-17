@@ -17,3 +17,4 @@ Route::get('/{msg?}','WelcomeController@welcome')->name('welcome');
 
 Route::post('/','WelcomeController@create')->name('create');
 
+Route::get('/usuario','UsuarioController@index')->name('usuario.index'); 
